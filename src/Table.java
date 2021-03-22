@@ -12,7 +12,6 @@ public class Table {
     public Table getNumbers() throws InterruptedException {
         printMessage("Generating table...");
         printMessage("Table specs: " + width + " x " + height);
-        printMessage("Table Operation: Addition");
         printSpace();
         addDelay(2);
 
